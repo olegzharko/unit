@@ -17,3 +17,12 @@ void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);
 }
+
+int main(void)
+{
+	char *s;
+	char str[] = "ft_bzero";
+
+	ft_bzero(str);
+	return (0);
+}
