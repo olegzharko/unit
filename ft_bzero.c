@@ -21,7 +21,7 @@ void	ft_bzero(void *s, size_t n)
 int main(void)
 {
 	char *s;
-	char str[] = "ft_bzero";
+	char str[] = "ft_bzero_git add";
 
 	ft_bzero(str);
 	return (0);
